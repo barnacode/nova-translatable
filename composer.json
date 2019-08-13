@@ -1,0 +1,31 @@
+{
+    "name": "barnacode/nova-translatable",
+    "description": "A Laravel Nova field for dimsav/laravel-translatable with TinyMCE integration.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "translatable"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0",
+        "dimsav/laravel-translatable": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Barnacode\\NovaTranslatable\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Barnacode\\NovaTranslatable\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
