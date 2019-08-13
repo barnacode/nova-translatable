@@ -1,5 +1,5 @@
 # Nova Translatable Field
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/yeswedev/nova-translatable.svg?style=flat-square)](https://packagist.org/packages/yeswedev/nova-translatable)
+<!-- [![Latest Version on Packagist](https://img.shields.io/packagist/v/yeswedev/nova-translatable.svg?style=flat-square)](https://packagist.org/packages/yeswedev/nova-translatable) -->
 
 This package is based on [emilianotisato/nova-tinymce](https://github.com/emilianotisato/nova-tinymce).
 
