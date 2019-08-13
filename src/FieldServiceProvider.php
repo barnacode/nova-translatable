@@ -1,6 +1,6 @@
 <?php
 
-namespace Barnacode\Nova\Translatable;
+namespace Barnacode\NovaTranslatable;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;
