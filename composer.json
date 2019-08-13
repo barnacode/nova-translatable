@@ -13,7 +13,14 @@
     },
     "autoload": {
         "psr-4": {
-            "Barnacode\\NovaTranslatable\\": "src"
+            "Barnacode\\NovaTranslatable\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Barnacode\\NovaTranslatable\\FieldServiceProvider"
+            ]
         }
     },
     "config": {
