@@ -12,16 +12,9 @@
         "dimsav/laravel-translatable": "^9.0"
     },
     "autoload": {
-        "psr-4": {
-            "Barnacode\\NovaTranslatable\\": "src"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Barnacode\\NovaTranslatable\\FieldServiceProvider"
-            ]
-        }
+        "classmap": [
+            "src/"
+        ]
     },
     "config": {
         "sort-packages": true
