@@ -17,7 +17,7 @@ And in the edit view like this:
 You can require this package using composer:
 
 ```
-composer require yeswedev/nova-translatable
+composer require barnacode/nova-translatable
 ```
 
 You can add the field follows:
